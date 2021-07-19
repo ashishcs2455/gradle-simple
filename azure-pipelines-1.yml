@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ashish
+  vmImage: ubuntu:latest
 
 steps:
 - task: Gradle@2
